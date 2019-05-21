@@ -1,0 +1,33 @@
+body {
+    text-align: center
+}
+object {
+    display: block;
+    margin: 0 auto 30px;
+}
+
+input {
+    padding: 0 10px 0 30px;
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 580px;
+}
+
+.pupile {
+    transform: translate(-30px, 0);
+    transition: transform .2s linear;
+}
+
+.red-line {
+    background: red;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    top:0;
+    left: 30px;
+}
